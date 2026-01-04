@@ -10,7 +10,7 @@ from telethon.errors import UserNotParticipantError
 # -----------------------------
 # تنظیمات
 # -----------------------------
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8293405809:AAECcVlJ5Ausp_uQSHOxsUXereyAso7YuYA")
 ADMIN_ID = 586732691
 
 API_ID = 2040
@@ -22,7 +22,7 @@ CHANNELS_TO_CHECK = ["monsmain", "earn_monsmain", "sponsoracb"]
 # اتصال به تلگرام
 # -----------------------------
 bot = TelegramClient("acb_session", API_ID, API_HASH)
-bot.start(bot_token=8293405809:AAECcVlJ5Ausp_uQSHOxsUXereyAso7YuYA)
+bot.start(bot_token=)
 
 logging.basicConfig(level=logging.INFO)
 
@@ -193,3 +193,4 @@ if __name__ == "__main__":
     init_db()
     print("🚀 Bot is running on Railway")
     bot.run_until_disconnected()
+
